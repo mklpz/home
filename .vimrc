@@ -1,8 +1,16 @@
-
+"set the ambiguous characters mode to double, WSL
+set ambw=double
 "Toggle auto-indenting for code paste
- nnoremap <F2> :set invpaste paste?<CR>
- set pastetoggle=<F5>
- set showmode
+" Toggle paste mode with F2
+set pastetoggle=<F2>
+
+" Show current mode in the status line
+set showmode
+
+" Map F2 to toggle paste mode and enter insert mode if not already in insert mode
+nnoremap <F2> :set invpaste paste?<CR>i
+inoremap <F2> <ESC>:set invpaste paste?<CR>
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
