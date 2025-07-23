@@ -1,0 +1,1247 @@
+irm https://christitus.com/win | iex
+devcon hwids *
+py
+python.exe
+pip install torch
+py
+pip list
+py
+pip install numpy
+py
+pip install pix2tex[gui]
+pix2tex.exe
+calc.exe
+pix2tex.exe
+pix2tex_gui.exe
+pix2tex_cli.exe
+pix2tex_gui.exe
+python.exe
+& C:/Users/Carlos/AppData/Local/Programs/Python/Python312/python.exe d:/HomeWin/Desktop/testpy/series.py
+pix2tex_gui.exe
+py.exe
+py
+& C:/Users/Carlos/AppData/Local/Programs/Python/Python312/python.exe c:/Users/Carlos/AppData/Local/Temp/generator.py
+pix2tex_gui.exe
+pix2tex_gui.exe
+python
+pix2tex_gui.exe
+python.exe
+& C:/Users/Carlos/AppData/Local/Programs/Python/Python312/python.exe c:/Users/Carlos/AppData/Local/Temp/test.py
+pix2tex_gui.exe
+`````````````````````````````````````````````````````````````````````````````````````````
+sc
+sc query type= driver | findstr nvidia
+sc query type= Display | findstr nvidia
+pnputil
+pnputil /enable-device "USB\VID_0A12&PID_0001\6&38A36D0C&0&4"
+sudo
+pnputil /enable-device "USB\VID_0A12&PID_0001\6&38A36D0C&0&4"
+runas /user:Administrator "C:\Program Files (x86)\3RVX\3RVX.exe"
+Enable-Device -InstanceId "USB\VID_0A12&PID_0001\6&38A36D0C&0&4"
+Get-Module -ListAvailable -Name PnpDevice
+Get-PnpDevice | Select-Object Name, Status, InstanceId
+$device = Get-PnpDevice -InstanceId "USB\VID_0A12&PID_0001\6&38A36D0C&0&4"
+echo $device
+Enable-PnpDevice -InstanceId $device.InstanceId -Confirm:$false
+Enable-PnpDevice -InstanceId $device.InstanceId
+$device = Get-PnpDevice -InstanceId "USB\VID_0A12&PID_0001\6&38A36D0C&0&4"
+Disable-PnpDevice -InstanceId $device.InstanceId -Confirm:$false
+Enable-PnpDevice -InstanceId $device.InstanceId -Confirm:$false
+Enable-Device
+"C:\Users\Carlos\AppData\Local\Temp\DevTools\DevManView.exe /enable USB\VID_0A12&PID_0001\6&38A36D0C&0&4"
+"C:\Users\Carlos\AppData\Local\Temp\DevTools\DevManView.exe /enable 'USB\VID_0A12&PID_0001\6&38A36D0C&0&4'"
+C:\Users\Carlos\AppData\Local\Temp\DevTools\DevManView.exe /enable "USB\VID_0A12&PID_0001\6&38A36D0C&0&4"
+cd c:\
+dir
+.\sw.bat
+set "deviceID=USB\VID_0A12&PID_0001\6&38A36D0C&0&4"
+pnputil /enum-devices | findstr /C:"%deviceID%" > nul
+pnputil /enum-devices "USB\VID_0A12&PID_0001\6&38A36D0C&0&4"
+pnputil /enum-devices
+.\sw.bat
+pnputil /enum-devices /instanceid "USB\VID_0A12&PID_0001\6&38A36D0C&0&4"
+.\sw.bat
+pix2tex_gui.exe
+nircmd
+cd C:\Windows\System32
+dir
+nircmd.exe
+pix2tex_gui.exe
+irm https://christitus.com/win | iex
+pix2tex_gui.exe
+ssh
+tldr
+ssh mk@192.168.0.14
+exit
+ssh mk@192.168.0.14
+dir
+dir .\.ssh\known_hosts
+type .\.ssh\known_hosts
+dir
+cat .\.ssh\known_hosts
+ssh mk@192.168.0.14
+dir
+rm .\.ssh\known_hosts
+ssh mk@192.168.0.14
+ssh pi@192.168.0.14
+dir
+$PSVersionTable
+dir
+cd
+ls
+ll
+cp
+ls
+ls -la
+awk
+mkdir
+ss
+ssh pi@192.168.0.14
+ls
+ssh pi@192.168.0.14
+ls
+rm .\.ssh\known_hosts
+ssh pi@192.168.0.14
+ssh mk@192.168.0.14
+ss
+ssh mk@192.168.0.14
+ssh mk@192.168.0.12
+ssh mk@192.168.0.16
+Get-PnpDevice -PresentOnly | Where-Object { $_.InstanceId -match '^USB' }
+NETSTAT.EXE
+ssh mk@192.168.0.16
+ping 192.168.0.16
+ssh mk@192.168.0.16
+ls
+ls .\.ssh\known_hosts
+type .\.ssh\known_hosts
+vi
+vim
+nano
+ssh mk@192.168.0.16
+ping 192.168.0.16
+ssh mk@192.168.0.16
+ss
+ssh mk@192.168.0.16
+git
+$Profile
+vim D:\HomeWin\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+ls
+ll
+find-file *.exe
+df
+ls
+cp
+mv
+explorer.exe
+calc.exe
+$Profile
+git
+ls
+$PROFILE
+vim
+vi
+cd
+cd C:\Windows\System32
+ls
+cd
+$PROFILE
+$PROFILE | Format-List * -Force
+ls
+cd .\worspace\
+ls
+cd dalto
+ls
+type .\archivo.txt
+git status
+git restore
+git restore --staged dalto.txt
+git status
+git add dalto.txt
+git status
+ls
+git commint -m "restaurando archivo.txt"
+git commit -m "restaurando archivo.txt"
+git status
+git status -s
+ls
+git checkout dalto.txt
+git log
+git log --oneline
+avrdude -c usbasp -p m328p
+avrdude -c usbasp -p m328p -B 5
+cd D:\CARLITOS\Futbolin\FutboFiles\futbolin__rpi\OnOff_PhotoRx\proteus_compil_ok\ATMEGA328P\Debug
+ls
+avrdude -u -p m328p -c usbasp -B 5 -e -V -U flash:w:Debug.hex:i -U lfuse:w:0x52:m -U hfuse:w:0xD9:m -U efuse:w:0xFE:m -U lock:w:0xFC:m
+avrdude -u -p m328p -c usbasp -B 3 -e -V -U flash:w:Debug.hex:i -U lfuse:w:0x52:m -U hfuse:w:0xD9:m -U efuse:w:0xFE:m -U lock:w:0xFC:m
+avrdude -u -p m328p -c usbasp -B 8 -e -V -U flash:w:Debug.hex:i -U lfuse:w:0x52:m -U hfuse:w:0xD9:m -U efuse:w:0xFE:m -U lock:w:0xFC:m
+avrdude -u -p m328p -c usbasp -B 1 -e -V -U flash:w:Debug.hex:i -U lfuse:w:0x52:m -U hfuse:w:0xD9:m -U efuse:w:0xFE:m -U lock:w:0xFC:m
+avrdude -u -p m328p -c usbasp -B 5 -e -V -U flash:w:Debug.hex:i -U lfuse:w:0x52:m -U hfuse:w:0xD9:m -U efuse:w:0xFE:m -U lock:w:0xFC:m
+pwd
+whoami.exe
+cd D:\CARLITOS\Futbolin\FutboFiles\futbolin__rpi\OnOff_PhotoRx\proteus_compil_ok\ATMEGA328P\Debug
+ls
+avr-objdump -h -S main.elf
+avr-objdump -h -S Debug.elf
+ls
+git
+git log --oneline
+ls
+cat .\.viminfo
+git st
+ls
+git status -s
+git branch
+git checkout greet
+ls
+git status -s
+$PSVersionTable
+$PSVersionTable
+git l
+git log --oneline
+git config --global -e
+git checkout master
+echo $profile
+notepad.exe $profile
+lss
+ls
+rake
+vi
+vim
+winget
+ls
+git branch
+git log --oneline
+$PSVersionTable
+alias
+sal
+ls
+cd "D:\HomeWin\Downloads"
+ls
+irm "https://github.com/ChrisTitusTech/powershell-profile/raw/main/setup.ps1" | iex
+choco --help
+irm "https://github.com/ChrisTitusTech/powershell-profile/raw/main/setup.ps1" | iex
+cd
+ls
+cd
+ls
+df
+ls
+pwd
+ls
+cd
+ls
+irm "https://github.com/ChrisTitusTech/powershell-profile/raw/main/setup.ps1" | iex
+ccd
+cd
+pwd
+irm "https://github.com/ChrisTitusTech/powershell-profile/raw/main/setup.ps1" | iex
+ls
+choco upgrade
+choco upgrade chocolatey
+choco upgrade
+irm "https://github.com/ChrisTitusTech/powershell-profile/raw/main/setup.ps1" | iex
+ls
+ls
+cd
+ls
+winget install -e --accept-source-agreements --accept-package-agreements JanDeDobbeleer.OhMyPosh
+Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+winget install -e --id ajeetdsouza.zoxide
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+ls
+& $profile
+cd
+Install-Module -Name Terminal-Icons -Scope CurrentUser -Force -SkipPublisherCheck
+ls
+ll
+ls
+cat .\.gitconfig
+la
+cpy hola mundo
+cpy "hola mundo"
+pst
+sysinfo
+ep
+dtop
+pkill winrar.exe
+pkill WinRAR.exe
+uptime
+touch elim
+ls
+vi
+vim
+cat .\elim
+rm .\elim
+ls
+Get-PubIP
+Test-CommandExists grep
+Test-CommandExists mksd
+reload-profile
+$home
+pst
+cd pst
+cd "D:\HomeWin\Desktop\git_tutorial\work\hello"
+ls
+gl
+gs
+gl
+gl --all
+gc
+gb
+reload-profile
+glog
+gs
+glog
+Test-CommandExists glog
+glog
+cd "D:\HomeWin\Desktop\git_tutorial\work\hello"
+glog
+glog -all
+la
+glog --all
+glog
+reload-profile
+glog
+cd "D:\HomeWin\Desktop\git_tutorial\work\hello"
+glog
+glog --all
+& $profile
+glog --all
+cd "D:\HomeWin\Desktop\git_tutorial\work\hello"
+glog --all
+glog
+glg
+. $profile
+gd
+cd "D:\HomeWin\Desktop\git_tutorial\work\hello"
+gd
+gd --staged
+gc
+ga
+glog
+gs
+git add .
+. $profile
+gct
+gct "hello"
+ls
+touch elim
+gs
+gac "testing file eliminate"
+glog
+gr
+glg
+cd "D:\HomeWin\Desktop\git_tutorial\work\hello"
+glog
+gr --hard e704150
+. $profile
+gr --hard e704150
+glog
+gs
+ls
+gr --hard e704150
+ls
+gr --hard head~1
+ls
+gs
+git reset --hard head~1
+ls
+gs
+glog
+glog --all
+touch elim
+gac "testing file eliminate"
+glog --all
+Set-PSReadLineOption -PredictionViewStyle ListView
+ls -la
+la
+cd "D:\HomeWin\Desktop\git_tutorial\work\hello"
+glog
+ls
+gr --hard head~1
+gr --hard e704150
+echo hello
+git reset --hard head~1
+glog
+touch elim
+gac "testing file eliminate"
+glog
+git reset head~1
+gs
+glog
+git reset --hard e704150
+ls
+gs
+rm .\elim
+gs
+ls
+glog
+touch elim
+ls
+gac "testing file eliminate"
+glog
+gr --hard e704150
+gr --hard head~1
+git reset --hard
+cd "D:\HomeWin\Desktop\git_tutorial\work\hello"
+glog
+gs
+gr --hard head~1
+ls
+touch elim
+gac "testing file eliminate"
+glog
+gr --hard e704150
+glog
+gco f145
+ls
+glog
+glog --all
+glog
+gco greet
+glog
+--glo
+git config --global -e
+ll
+ls
+la
+gco master
+ls
+gac "Made interactive"
+glog --all
+gr --hard head~1
+gco greet
+glog --all
+gco master
+glog --all
+git add lib/hello.rb
+git commit -m "Made interactive"
+glog --all
+gs
+gco 
+gco 0ce4bbd
+glog
+ls
+gco greet
+ls
+glog
+glog --all
+gco master
+gco greet
+Edit-Profile
+git merge master
+$PROFILE.CurrentUserAllHosts
+gs
+gac "Merged master fixed conflict."
+glog --all
+gco master
+gco greet
+gco master
+gco greet
+glog
+gr --hard 9509cc3
+glog --all
+gco master
+gr --hard 2350f5e
+glog --all
+gco greet
+git rebase master
+glog --all
+gco master
+touch elim
+gac "testing file eliminate"
+gr --hard head~1
+glog --all
+gco master
+gb
+git branch
+touch elim
+gac "testing file eliminate"
+glog --all
+gr --hard head~1
+gco master
+git merge greet
+gco head~1
+git reflog
+gco head
+gco master
+git config --global -e
+glog --all
+git branch
+git init
+touch elim1
+touch elim2
+touch elim3
+rm .\elim2
+rm .\elim3
+ls
+gac "testing file1 eliminate"
+touch elim2
+gac "testing file2 eliminate"
+touch elim3
+gac "testing file3 eliminate"
+gb
+Edit-Profile
+git branch b1
+git branch b1 -d
+git checkout -b b1
+touch elimb1
+gac "testing fileb1 eliminate"
+touch elimb2
+gac "testing fileb2 eliminate"
+glog
+gco master
+touch elim4
+gac "testing file4 eliminate"
+glog
+glog --all
+git rebase b1
+gco head~1
+ls
+gco head~4
+ls
+gco master
+gco head~1
+gco head~2
+gco master
+gco b1
+gco master
+git merge b1
+cd..
+ls
+git clone hello cloned_hello
+ls
+du -sh
+cd .\cloned_hello\
+ls
+glog --all
+git branch
+git remote
+git remote show origen
+la
+git remote show origin
+git branch
+cd ..\hello\
+ls
+git log --oneline
+git branch
+gac "Changed README in original repo"
+cd ..\cloned_hello\
+cat .\README
+glog --all -5
+git log --oneline -5
+git fetch
+git log --oneline -5
+glog --all
+git merge origen/master
+git merge origin/master
+cat .\README
+git pull
+git branch --track greet origin/greet
+git branch -a
+glog
+cd ..
+rm -rf .\cloned_hello\
+rm .\cloned_hello\
+rm -r .\cloned_hello\
+ls
+rd .\cloned_hello\
+rd -R .\cloned_hello\
+ls
+rd --help
+rd
+rd -h
+rm /s .\cloned_hello\
+rd /s .\cloned_hello\
+rm -help
+rm help
+rm .\cloned_hello\
+Test-CommandExists rm
+rm -r .\cloned_hello\
+ls .\cloned_hello\
+Remove-Item .\cloned_hello\
+Remove-Item .\cloned_hello\ -Recurse
+sudo Remove-Item .\cloned_hello\ -Recurse
+git clone hello cloned_hello
+ls
+cd .\cloned_hello\
+glog
+cd ..
+cd .\hello\
+gac "Changed README in original repo TWICE"
+cd ..
+cd .\cloned_hello\
+cat .\README
+git pull
+cat .\README
+cd ..
+git clone https://github.com/mklpz/hello.git cloned_hello
+cd .\cloned_hello\
+ls
+cat .\README
+glog
+glog --all
+git fetch
+glog --all
+cat .\README
+git pull
+git fetch
+glog --all
+git pull
+cat .\README
+cd ..
+git clone --bare hello hello.git
+ls .\hello.git\
+ls .\hello\.git\
+cd .\hello\
+ls
+git remote add shared ..\hello.git
+gac "Added shared comment to readme"
+git push shared master
+cd ..\cloned_hello\
+ls
+git remote add shared ../hello.git
+git branch --track shared master
+git pull shared master
+cat .\README
+cd ..\hello\
+git daemon --verbose --export-all --base-path=.
+cd ..
+ls
+git daemon --verbose --export-all --base-path=.
+git config --list
+git remote -v
+cd .\cloned_hello\
+git remote -v
+git branch --merged
+git branch --no-merged
+git branch -v
+alias
+Get-Alias rm
+cd ..
+ls
+rm -Path "D:\HomeWin\Desktop\git_tutorial\work\hello" -Recurse -Force
+cd ..
+ls
+mv '.\New folder\' reset_tst
+ls
+cd .\reset_tst\
+ls
+glog --all
+gco head~1
+gco master
+gco head~3
+git reflog
+gco ad034ae
+glog --all
+gco master
+git reflog
+gs
+glog --all
+rm .\ktopgit_tutorialworkDHomeWinDesktopgit_tutorialwork
+gs
+git clean -n
+glog --all
+git reflog
+git clean -i
+echo 1 2 3 4 >> numbers
+ls
+gac "numbers 1 to 4"
+git ini
+git init
+gac "numbers 1 to 4"
+cat .\numbers
+echo 5 6 7 8 9 11 >> numbers
+gac "numbers wrong"
+glog
+gr --hard head~1 
+echo 5 6 7 8 9 11 >> numbers
+gac "numbers wrong"
+gr head~1
+git status
+ep
+$PROFILE
+ls
+gr --hard head~1 
+glog
+gs
+git restore .\numbers
+gs
+glog
+gac "numbers wrong"
+glog
+gr --hard head~1 
+gs
+gac "numbers wrong"
+glog
+gr --soft head~1 
+gs
+gd
+gd --staged
+gac "perfect"
+glog
+gco head~1
+gco master
+gr --hard head~1
+gs
+gac "perfect"
+gr --mixed head~1
+glog
+gs
+gd
+glog
+gs
+gr --hard head~1
+gr --hard head
+gs
+gac "added 5"
+glog
+la
+rm .\numbers
+git init
+glog
+gs
+git init
+echo "Primera línea" > archivo1.txt
+git add archivo1.txt
+git commit -m "Primer commit"
+echo "Segunda línea" >> archivo1.txt
+git add archivo1.txt
+git commit -m "Segundo commit"
+echo "Tercera línea" >> archivo1.txt
+git add archivo1.txt
+git commit -m "Tercer commit"
+ls
+glog
+git reset --soft HEAD~2
+gs
+gd --staged
+git commit -m "Segundo y Tercer commit"
+glog
+gco head~1
+git reset --hard head~1
+glog
+gco master
+git reset --hard head~1
+git commit -m "Segundo commit"
+echo "Segunda línea" >> archivo1.txt
+git commit -m "Segundo commit"
+git add .
+git commit -m "Segundo commit"
+echo "Tercera línea" >> archivo1.txt
+git add .
+git commit -m "Tercer commit"
+glog
+git reset head~2
+gs
+gd
+git add .
+git commit -m "Cuatro lineas"
+glog
+gco head~1
+gco master
+glog
+echo "Quinta línea" >> archivo1.txt
+git commit -am "Tercer commit"
+glog
+gco head~1
+gco master
+glog
+git revert 7878
+git revert --skip
+glog
+gco head~1
+gco master
+git revert 7878
+git add .\archivo1.txt
+git revert --continue
+glog
+git reset --hard head~3
+glog
+gs
+touch alpha.html
+git add. && git commit -m "1st git commit: 1 file"
+touch beta.html
+git add . && git commit -m "2nd git commit: 2 files"
+touch charlie.html
+git add . && git commit -m "3rd git commit: 3 files"
+touch delta.html
+git add . && git commit -m "4th git commit: 4 files"
+touch edison.html
+glog
+git reset --hard head~3
+gs
+touch alpha.html
+git add . && git commit -m "1st git commit: 1 file"
+touch beta.html
+git add . && git commit -m "2nd git commit: 2 files"
+touch charlie.html
+git add . && git commit -m "3rd git commit: 3 files"
+touch delta.html
+git add . && git commit -m "4th git commit: 4 files"
+touch edison.html
+git add . && git commit -m "5th git commit: 5 files"
+glog
+git revert 21f6
+git reset --hard head~5
+gs
+ks
+ls
+rm .\alpha.html
+gs
+git add .
+git commit --amend -m "Reparing commit"
+glog
+gco head~1
+gco master
+glog
+git reset --hard head~1
+git add .\archivo1.txt
+git commit --amend --no-edit
+glog
+git add .\archivo1.txt
+git commit --amend
+glog
+ls
+git init
+gs
+git config --global --add safe.directory D:/CARLITOS/Futbolin/FutboFiles/futbolin__rpi/OnOff_PhotoRx/proteus_compil_ok
+gs
+git add .
+git commit -m "Some times dont turn on with delays, but using without delays for poweron shutdown or reboot works very well"
+du -sh .\.git\
+git branch
+glog
+gs
+git add .
+git commit -m "Making a clean simulation file proteus 8.13 only 1  main"
+glog
+gs
+la
+ls
+la
+gs
+cd .\ATMEGA328P_1\Debug\
+ls
+avrdude -u -p m328p -c usbasp -B 5 -e -V -U flash:w:Debug.hex:i -U lfuse:w:0x52:m -U hfuse:w:0xD9:m -U efuse:w:0xFE:m -U lock:w:0xFC:m
+cd ..\..\
+gs
+rm .\sim_pwrctrl.pdsprj.MKPC.Carlos.workspace
+gs
+glog
+gs
+git commit --amend --no-edit
+gs
+glog
+gr --hard head~3
+gr --hard 263848c
+glog
+gs
+git commit -m "Resolving conflict in gitignore"
+glog
+git reset --hard fa3b
+glog
+git remote
+git config --global -e
+git push
+glog
+git reflog
+git check-ignore -v .\ATMEGA328P_1\Debug\
+git check-ignore -v '.\Project Backups\'
+git check-ignore -v
+glog
+git show 263848c
+git show 263848c .\.gitignore
+git status --ignored
+ls
+glog
+git rm -rf .\ATMEGA328P_1\Debug\
+git rm -rf '.\Project Backups\'
+git status --ignored
+git commit --amend
+git status --ignored
+glog
+git push
+glog
+git checkout 6076
+glog
+git reflog
+git checkout b0cc
+git branch -vv
+mv
+git remote -v
+pnputil /enum-devices /instanceid "deviceID=PCI\VEN_10DE&DEV_06FA&SUBSYS_061910DE&REV_A1\6&19A4753&0&00100008"
+pnputil /enum-devices /instanceid "PCI\VEN_10DE&DEV_06FA&SUBSYS_061910DE&REV_A1\6&19A4753&0&00100008"
+iwr -useb https://christitus.com/win | iex
+glog
+git branch --v
+cd D:\HomeWin\Desktop\
+ls
+.\IEautoLogin.ps1
+iwr -useb https://christitus.com/win | iex
+gs
+git add .
+gs
+git rm --cached .
+git rm -r  --cached .
+gs
+git config --global -e
+gs
+git add .
+git rm -rf  --cached .
+gs
+git add .
+Edit-Profile
+$PROFILE
+$PROFILE.CurrentUserAllHosts
+C:\Users\Carlos\Documents\PowerShell\profile.ps1
+$PROFILE
+. $profile
+Edit-Profile
+gs
+gct "full backup fucam software"
+gs
+git mv .\.gitignore.bk .gitignore
+gs
+-git rm --cached *.swp
+git rm -rf --cached *.swp
+git rm -rf --cached *.pyc
+git rm -rf --cached .status
+git rm -rf --cached *.status
+git rm -rf --cached league
+git rm -rf --cached *.o
+git rm -rf --cached *.so
+git rm -rf --cached *~
+git rm -rf --cached /video/player/player
+git rm -rf --cached **/.DS_Store
+git rm -rf --cached *.bk
+git rm -rf --cached *.bak
+git rm -rf --cached *.key
+git diff --name-only --cached
+git ls-files --cached
+git rm -rf --cached /video/player/player
+git rm -rf --cached "/video/player/player"
+git rm -rf --cached '/video/player/player'
+git rm -rf --cached video/player/player
+git rm -rf --cached csv2table/build/*
+git rm -rf --cached csv2table/dist/*
+git rm -rf --cached csv2table/tst_syntax_vim/*
+git ls-files --cached
+gs
+git add .\.gitignore
+gs
+git clean -n
+git clean -i
+gs
+git clean -df
+gs
+git ls-files --cached
+gs
+git ls-files --cached
+git rm -rf --cached csv2table/CsvToRst.py
+git rm -rf --cached csv2table/ExpRstCsv/DbFutbolin.csv
+git rm -rf --cached csv2table/ExpRstCsv/DbFutbolin.rst
+git rm -rf --cached csv2table/TryRedirToVim.py  
+git rm -rf --cached csv2table/csv2table.spec
+git rm -rf --cached csv2table/guicsv.py
+git rm -rf --cached csv2table/tst.rst
+git ls-files --cached
+git rm -rf --cached lic_man/BeforeTst/*
+git rm -rf --cached lic_man/most_secure/*
+git rm -rf --cached lic_man/tstmain.py
+git ls-files --cached
+gs
+gct "adding gitignore and cleaning unused files"
+gs
+git restore git restore
+git restore csv2table/tst.csv
+git restore lic_man/liman.spec
+gs
+glog
+gco head~1
+git commit --amend
+glog
+git reflog
+gco 8aa02e3
+glog
+gs
+gco 0c0c8ca
+glog
+gs
+git reflog
+gco 8aa02e3
+gs
+git reflog
+gco 7bc5887
+gs
+git reflog
+gco 8aa02e3
+gco 7bc5887
+gs
+git stash
+git reflog
+gco 8aa02e3
+git init
+gs
+git config --global --add safe.directory D:/CARLITOS/Futbolin/FutboFiles/futbolin__rpi/Backup_foos/fubatFinalBuster/fucam
+gs
+gac "Full backup fucam jun 2023"
+gs
+gac "Cleaning unused files is needed recompile csv2table.py to get binary"
+glog
+gco 5368f07
+glog
+gco 105d
+gco 105d466
+gco master
+netstat -b
+arp -a
+cd D:\HomeWin\Desktop\
+.\ipConected.ps1
+net view
+ping 192.168.0.15
+arp -a
+ssh mk@192.168.0.15
+CD
+ls
+cat .\.ssh\
+type .\.ssh\known_hosts
+ssh pi@192.168.0.15
+arp -a
+ssh pi@192.168.0.15
+git config --global -e
+ssh pi@192.168.0.15
+gs
+git config --global -e
+gs
+ssh pi@192.168.0.15
+arp -a
+ping 192.168.0.15
+ssh pi@192.168.0.15
+ls .\.ssh\known_hosts
+ssh pi@192.168.0.15
+ssh mk@192.168.0.15
+git init
+gs
+gac "Full backup fucam jun 2023"
+gs
+git ls-files --cached
+gac "Cleaning unused files is needed recompile csv2table.py to get binary"
+ssh mk@192.168.0.15
+git log -1
+git log -2
+ssh mk@192.168.0.15
+ssh pi@192.168.0.15
+cd D:\CARLITOS\Futbolin\FutboFiles\futbolin__rpi\fw_pwrctrl_fucam\ATMEGA328P_1\Debug
+ls
+avrdude -u -p m328p -c usbasp -B 5 -e -V -U flash:w:Debug.hex:i -U lfuse:w:0x52:m -U hfuse:w:0xD9:m -U efuse:w:0xFE:m -U lock:w:0xFC:m
+cd
+ssh pi@192.168.0.15
+ssh mk@192.168.0.17
+git clone https://github.com/raspberrypi/userland.git
+sudo apt-get install cmake
+ssh mk@192.168.0.17
+vi .\.ssh\known_hosts
+notepad .\.ssh\known_hosts
+ssh mk@192.168.0.17
+notepad .\.ssh\known_hosts
+ssh mk@192.168.0.17
+arp -a
+ssh mk@192.168.0.10
+ssh mk@192.168.0.13
+arp -a
+ssh mk@192.168.0.13
+python
+pip list
+pip install yfinance
+ls
+python .\bitcoindata.py
+ssh mk@192.168.0.13
+ssh mk@192.168.0.18
+ls .\.ssh\known_hosts
+notepad .\.ssh\known_hosts
+ssh mk@192.168.0.18
+ls
+git clone https://github.com/mklpz/fb
+ls fb
+ssh mk@192.168.0.18
+notepad .\.ssh\known_hosts
+ssh mk@192.168.0.18
+notepad .\.ssh\known_hosts
+ssh mk@192.168.0.18
+cd C:\Users\Carlos\AppData\Local\Temp
+cd
+python C:\Users\Carlos\AppData\Local\Temp\fruta.py
+python
+ssh mk@192.168.0.18
+cd D:\CARLITOS\Futbolin\FutboFiles\futbolin__rpi\Backup_foos\fubatFinalBuster\fb23
+ls
+git status
+git fetch
+git status
+git pull
+git status
+ssh mk@192.168.0.18
+ssh mk@192.168.0.13
+notepad .\.ssh\known_hosts
+ssh mk@192.168.0.13
+ssh pi@192.168.0.13
+ssh mk@192.168.0.18
+ssh pi@192.168.0.13
+ssh mk@192.168.0.18
+avrdude -c usbasp -p m328p
+avrdude -c usbasp -p m328p -B 5
+cd "D:\CARLITOS\Futbolin\FutboFiles\FutbolinBat\Firmware\Fubat_avrgcc_5110\fubat_16x2"
+ls
+cd .\ATMEGA328P\Debug\
+ls
+avrdude -u -p m328p -B 10 -c usbasp -e -V -U flash:w:Debug.hex:i -U lfuse:w:0xED:m -U hfuse:w:0xD1:m -U efuse:w:0xFD:m -U lock:w:0xFC:m
+ssh mk@192.168.0.18
+cd
+pip install qrcode
+python C:\Users\Carlos\AppData\Local\Temp\qr.py
+ls
+open
+python C:\Users\Carlos\AppData\Local\Temp\qr.py
+git status
+git diff
+git status
+git log --oneline
+gac "mod reboot shutdown poweron adding buzzer function and delays"
+git fetch
+git status
+git push
+git log
+git log --oneline
+git checkout ec05
+git log --oneline
+git status
+git branch --v
+git checkout master
+git status
+git log --oneline
+git reflog
+git branch --no-merged
+git branch --merged
+git branch -v
+git branch --v
+git checkout ec05
+git switch -c buzzeron
+git branch -v
+git checkout master
+git checkout ec05
+git checkout master
+git merge buzzeron
+git status
+git fetch
+git push
+ssh mk@192.168.0.15
+notepad .\.ssh\known_hosts
+ssh mk@192.168.0.15
+cd D:\CARLITOS\Futbolin\FutboFiles\futbolin__rpi\Backup_foos\fubatFinalBuster\fb23
+ls
+git status
+git fetch
+git pull
+git branch -v
+git branch -vv
+git branch -a
+git pull
+git branch -r
+git fetch origen nostby
+git fetch origin nostby
+git branch
+git checkout -b feature-branch origin/feature-branch
+git checkout -b nostby origin/nostby
+git branch
+ls
+git checkout master
+git pull
+ssh mk@192.168.0.15
+cd D:\HomeWin\Desktop\Notes\notes
+ls
+git init
+git status
+git config --global --add safe.directory D:/HomeWin/Desktop/Notes/notes
+git status
+git add .
+git status
+git commit -m "initializing examples obsidian"
+ls
+git push
+git remote add origin https://github.com/mklpz/obsidianhello.git
+push -u origin master
+git push -u origin master
+ssh mk@192.168.0.15
+ssh mk@192.168.0.19
+ssh pi@192.168.0.19
+cd C:\Users\Carlos\AppData\Local\Temp
+ls
+python .\peras.py
+pip install qrcode
+python.exe -m pip install --upgrade pip
+pip list
+netstat -nr
+netstat -nr | grep default
+ssh mk@192.168.0.19
+ssh pi@192.168.0.19
+ssh pi@192.168.0.21
+ssh pi@proxy19.rt3.io -p 38797
+ssh://pi@proxy18.rt3.io:38120
+ssh pi@proxy19.rt3.io -p 38120
+ssh pi@proxy18.rt3.io -p 38120
+ssh mk@192.168.0.19
+ssh mk@192.168.0.14
+notepad .\.ssh\known_hosts
+ssh mk@192.168.0.14
+no
+notepad .\.ssh\known_hosts
+ssh mk@192.168.0.14
+ssh pi@192.168.0.19
+ssh pi@192.168.0.17
+notepad .\.ssh\known_hosts
+ssh pi@192.168.0.17
+ssh proxy110.r3proxy.com -p 39700
+ssh pi@proxy110.r3proxy.com -p 39700
+ssh pi@proxy111.r3proxy.com -p 39573
+cd "D:\CARLITOS\Futbolin\FutboFiles\FutbolinBat\Firmware\Fubat_avrgcc_5110\fubat_16x2"
+ls
+cd D:\CARLITOS\Futbolin\FutboFiles\FutbolinBat\Firmware\Fubat_avrgcc_5110\fubat_16x2\ATMEGA328P\Debug
+ls
+avrdude -u -p m328p -B 10 -c usbasp -e -V -U flash:w:Debug.hex:i -U lfuse:w:0xED:m -U hfuse:w:0xD1:m -U efuse:w:0xFD:m -U lock:w:0xFC:m
+ls
+cd D:\HomeWin\Desktop
+ls
+.\GetTemp.cmd
+cd D:\HomeWin\Desktop
+ls
+.\GetTemp.cmd
+cd "D:\CARLITOS\Futbolin\FutboFiles\futbolin__rpi\Backup_foos\fubatFinalBuster\fb23"
+git status
+git fetch
+git status
+git pull
+git status
+cd
+cd ~
+ssh mk@192.168.0.14
+notepad .\.ssh\known_hosts
+ssh mk@192.168.0.14
+notepad .\.ssh\known_hosts
+ssh mk@192.168.0.14
+ssh pi@192.168.0.14
+cd Desktop
+ls
+cd D:\HomeWin\Desktop
+ls *.py
+python .\GetPricesbobusdt.py
+pip list
+pip install requests pandas ta mplfinance beautifulsoup4
+python .\GetPricesbobusdt.py
+python -v
+python3.exe
+python3.13
+python .\GetPricesbobusdt.py
+ls
+Edit-Profile
